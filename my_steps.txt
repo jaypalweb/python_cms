@@ -1,0 +1,19 @@
+We will use pipenv for dependency management
+- run in the command 
+>python -m pipenv shell
+The above will create its own  virtual environment
+
+check it by using
+>python -m pip freeze
+
+install django
+>python -m pip install django
+
+check again via
+>python -m pip freeze
+
+create a seperate config folder for django project
+>django-admin startproject config .
+
+create pages app
+>django-admin startapp pages
